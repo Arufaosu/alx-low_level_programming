@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main
+ * main - Prints the alphabet.
  *
- * return
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
