@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr entry point
- * @s input
- * @c input
- * return always 0 (success)
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 	for (; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			return(&s[i]);
+			return (&s[i]);
 	}
 	return (0);
 }
