@@ -3,7 +3,7 @@
 int prime(int n, int i);
 
 /**
- * is_prime_number: if the integer is a prim num or no
+ * is_prime_number - if the integer is a prim num or no
  * @n: number to evaluate
  * return: 1 if n is a prime number and 0 if not
  */
@@ -15,7 +15,7 @@ int is_prime_number(int n)
 }
 
 /**
- * prime: calculate if a number is prime recursively
+ * prime - calculate if a number is prime recursively
  * @n: number to evaluate
  * @i: iterator
  * return: 1 if n is a prime num and 0 if not

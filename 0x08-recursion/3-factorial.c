@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
+ * factorial - normal facorial
+ * @n: input
+ * return: factorial value
  */
 int factorial(int n)
 {

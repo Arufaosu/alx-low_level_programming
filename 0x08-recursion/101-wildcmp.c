@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * wildcmp: compares strings
+ * wildcmp - compares strings
  * @s1: its a pointer to string parametres
  * @s2: its a pointer to string parametres
  * return: 0
