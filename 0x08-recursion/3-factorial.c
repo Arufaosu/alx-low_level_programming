@@ -3,7 +3,7 @@
 /**
  * factorial - normal facorial
  * @n: input
- * return: factorial value
+ * Return: factorial value
  */
 int factorial(int n)
 {
