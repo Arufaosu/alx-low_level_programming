@@ -2,7 +2,7 @@
 /**
  * _puts_recursion: function puts();
  *  @s: input
- *  return: always 0
+ *  Return: always 0
  */
 void _puts_recursion(char *s)
 {
