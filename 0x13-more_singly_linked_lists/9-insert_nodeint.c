@@ -5,7 +5,7 @@
  * @head: pointer to the first node in the list
  * @idx: the index of the list where a new node should be added
  *
- * Return: pointer to the new node otherwise a NULL 
+ * Return: pointer to the new node otherwise a NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
@@ -26,7 +26,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		*head = new;
 		return (new);
 	}
-
 	for (i = 0; temporary && i < idx; i++)
 	{
 		if (i == idx - 1)
@@ -38,6 +37,5 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		else
 			temporary = temporary->next;
 	}
-
 	return (NULL);
 }
