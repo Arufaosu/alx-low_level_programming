@@ -8,7 +8,7 @@ size_t print_listint_safe(const listint_t *head);
  * looped_listint_len - this func counts the number of unique nodes
  * @head: pointer to the head of the listint_t
  *
- * Return: if list is not looped 0 otherwise the number of unique nodes in the list
+ * Return: if list is not looped 0 or the number of unique nodes in the list
  */
 size_t looped_listint_len(const listint_t *head)
 {
